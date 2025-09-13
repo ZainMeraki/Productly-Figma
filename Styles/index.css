@@ -10,3 +10,80 @@
     --white-text: #FFFFFF;
     --primary-text: #173A56;
 }
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--header-nav-color);
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-primary {
+    background-color: var(--primary-btn-fill);
+    color: var(--white-text);
+    border: 1px solid var(--primary-btn-border);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-btn-fill);
+    color: var(--primary-text);
+    border: 1px solid var(--secondary-btn-border);
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--header-nav-color);
+    text-decoration: none;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
