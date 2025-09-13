@@ -87,3 +87,67 @@ nav {
     display: flex;
     gap: 10px;
 }
+
+/* (Section 1) */
+.section-1, .section-3, .section-4, .section-5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.section-1{
+    margin-bottom: 110px;
+}
+.section-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.section-image-container {
+    flex: 1;
+    min-width: 300px;
+    height: 400px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section-1 h1 {
+    font-size: 44px;
+    font-weight: 700;
+    color: var(--title-color);
+    margin-bottom: 20px;
+    line-height: 54px;
+}
+
+.section-1 p {
+    font-size: 18px;
+    color: var(--para-color);
+    margin-bottom: 30px;
+    line-height: 28px;
+}
+
+.section-1 .buttons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.section-1 .video-btn {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-btn-fill);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.section-1 .video-btn .fa-play {
+    font-size: 16px;
+    margin-right: 8px;
+}
