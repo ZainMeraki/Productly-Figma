@@ -1,0 +1,12 @@
+:root {
+    --bg-color: #F2F2F2;
+    --header-nav-color: #2F281E;
+    --para-color: #544837;
+    --title-color: #173A56;
+    --primary-btn-fill: #FF9900;
+    --primary-btn-border: #FF9900;
+    --secondary-btn-fill: none;
+    --secondary-btn-border: #BCD0E5;
+    --white-text: #FFFFFF;
+    --primary-text: #173A56;
+}
