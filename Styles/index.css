@@ -151,3 +151,55 @@ nav {
     font-size: 16px;
     margin-right: 8px;
 }
+
+/* Section 2 */
+.section-2 {
+    text-align: center;
+    padding: 80px 0;
+    margin-bottom: 210px;
+}
+
+.section-2 h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--title-color);
+    margin-bottom: 60px;
+    line-height: 54px;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 45px;
+    margin-bottom: 60px;
+}
+
+.feature-item {
+    max-width: 250px;
+    text-align: left;
+    flex: 1 1 200px; /* Added flex properties to help with layout on various screens */
+}
+
+.feature-item .icon {
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.feature-item h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--header-nav-color);
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--para-color);
+    line-height: 26px;
+}
+
+.section-2 .btn-primary {
+    margin-top: 60px;
+}
